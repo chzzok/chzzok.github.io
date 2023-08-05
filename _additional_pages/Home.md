@@ -1,5 +1,5 @@
 ---
-title: Study
+title: Home
 layout: simple
 order: 2
 ---

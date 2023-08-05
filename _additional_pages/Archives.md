@@ -1,5 +1,5 @@
 ---
-title: Literature
+title: Archives
 layout: simple
 order: 5
 ---

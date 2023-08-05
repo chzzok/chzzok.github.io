@@ -1,5 +1,5 @@
 ---
-title: Mr Crow's Rare and Exotic Goods Store
+title: Contact
 layout: simple
 order: 6
 ---

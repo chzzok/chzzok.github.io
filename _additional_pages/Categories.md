@@ -1,5 +1,5 @@
 ---
-title: Career
+title: Categories
 layout: simple
 order: 3
 ---

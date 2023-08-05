@@ -1,5 +1,5 @@
 ---
-title: Music
+title: etc
 layout: simple
 order: 4
 ---
