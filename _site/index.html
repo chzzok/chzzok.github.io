@@ -1,262 +1,261 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+
+
 
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <title>chzzokweb</title>
+  
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="author" content="chzzok">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css" media="all">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="chzzokweb"
+    href="/feed.xml" />
 
-  <link rel="stylesheet" href="/assets/css/normalize.css"/>
-  <link rel="stylesheet" href="/assets/css/bulma.css"/>
-  <link rel="stylesheet" href="/assets/css/custom.css"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
 
-  <!-- Icons -->
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+<!-- Katex -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
 
-  <title>
-    
-      Well, Hello There! &middot; Soot Spirits
-    
-  </title>
-
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
 </head>
 
-
 <body>
+  <div class="content">
 
-<section class="hero is-dark">
-  <div class="hero-body">
-    <div class="container">
-        <h1 class="title">
-          <span class="typewrite" data-period="2000" data-type='[ "hello", "namaste", "assalam o alaikum",
-          "sat srī akāl", "khammaghani", "hola", "bonjour", "nomoskaar", "guten tag", "kumusta", "salut", "nômoshkar"]'>
-            <span class="wrap"></span>
-          </span>
-        </h1>
-      <h4 class="subtitle" id="quote">
-      </h4>
-    </div>
-  </div>
-</section>
+    <header class="header">
 
-<div class="main-container">
-  <div class="tile is-ancestor is-vertical">
+  <div class="header_content">
+    <label class="theme_changer">
+      <input theme_toggle type="checkbox">
+      <div class="button"></div>
+    </label>
+    <a class="header_circle" href="/">
+      <img src="/assets/img/profile.jpg" alt="An Exhibition of A Hunger Artist">
+    </a>
+    <span class="header_name">chzzok</span>
+    <span class="header_job">developer</span>
+    <span class="header_mes"></span>
 
-
-    <nav class="nav has-shadow">
-
-      <div class="nav-left">
-
-        <a href="/" class="nav-item">
-          <span class="icon">
-            <i class="fa fa-home" aria-hidden="true" title="Homepage"></i>
-          </span>
-        </a>
-
-        <a href="https://github.com/abhn" class="nav-item">
-          <span class="icon">
-            <i class="fa fa-github" aria-hidden="true" title="Github"></i>
-          </span>
-        </a>
-
-        <div class="nav-item" id="searchFieldNav">
-          <div class="field has-addons">
-            <p class="control">
-              <input class="input is-small" type="text" placeholder="Find an article" id="search-text">
-            </p>
-            <p class="control">
-              <a class="button is-dark is-small" onclick="searchHandler();">
-                Search
-              </a>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="nav-right nav-menu" id='nav-menu'>
-        <a href="/archive" class="nav-item">Archive</a>
-        <a href="/tags" class="nav-item">Tags</a>
-      </div>
-
-      <span class="nav-toggle" id="nav-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
+    <nav class="nav">
+      
+      
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Aboutme" id="aaa">About me</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Study" id="aaa">Study</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Career" id="aaa">Career</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Music" id="aaa">Music</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Literature" id="aaa">Literature</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Mr_Crow's_Rare_and_Exotic_Goods_Store" id="aaa">Mr Crow's Rare and Exotic Goods Store</a>
+        </li>
+      </ul>
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/additional_pages/Miscellaneous" id="aaa">Miscellaneous</a>
+        </li>
+      </ul>
+      
+      
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/categories/jekyll" id="aa">jekyll
+            <!-- (1) -->
+          </a>
+        </li>
+      </ul>
+      
+      
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="/categories/update" id="aa">update
+            <!-- (1) -->
+          </a>
+        </li>
+      </ul>
+      
     </nav>
+  </div>
 
-    <div class="tile is-parent">
-      <div class="tile is-8 is-child main">
+</header>
 
-        <div class="box">
-    <h1 class="post-title">Well, Hello There!</h1>
-    <hr/>
-    <div class="content"><span class="post-text"><ul class="posts">
+
+
+    <nav class="mobile_menu">
+
+  <ul class="nav_list">
     
-    <li class="post">
-        <small>29 Apr 2018</small>
-        <small><a style="color:grey" href="/2018/04/29/markdown-test/#disqus_thread"></a></small>
-        <br>
-        <a class="nice-title" href="/2018/04/29/markdown-test/">Markdown Test</a>
-        <p class="nice-text">You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a... <a href="/2018/04/29/markdown-test/">Read more!</a></p>
+    
+    
+
+    <li class="nav_item">
+      <a href="/categories/jekyll" id="aa">jekyll (1)</a>
     </li>
     
-    <div class="pagination is-centered">
+    
+
+    <li class="nav_item">
+      <a href="/categories/update" id="aa">update (1)</a>
+    </li>
+    
+  </ul>
+
+</nav>
+
+    
+    <main class="main">
+
+    <!-- each category page -->
+
+<div class="archive">
   
-    <span class="pagination-previous is-left">Previous</span>
   
-  <span class="pagination-list">
-    Page: 1 of 2
-  </span>
+  <p class="archive_year">2023</p>
   
-    <a class="pagination-next" href="/blog/page2/" class="next">Next</a>
+
+  <ul>
+    <li>
+      <time class='archive_date' datetime='2023-08-05T13:44:03-01:00'>
+        Aug 05
+      </time>
+      <div class='archive_title'>
+        <a href='/2023-08/welcome-to-jekyll'>
+          Welcome to Jekyll!
+        </a>
+      </div>
+    </li>
+  </ul>
   
 </div>
 
-</ul>
-
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'nagekar';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-</span></div>
-</div>
 
 
-      </div>
 
-      <div class="tile is-4 is-child">
-        <div class="tile is-parent is-vertical sidebar">
-
-          <div class="tile is-child widget">
-
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title nice-title">
-                  Recent Posts
-                </p>
-              </header>
-              <div class="card-content">
-                <div class="content nice-text">
-                  <ul>
-                  
-                  <li><a href="/2018/04/29/markdown-test/">
-                    Markdown Test
-                  </a></li>
-                  
-                  <li><a href="/2017/04/17/lorem-ipsum/">
-                    Lorem Ipsum
-                  </a></li>
-                  
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tile is-child widget">
-
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title nice-title">
-                  Sponsored
-                </p>
-              </header>
-              <div class="card-content">
-                <div class="content nice-text">
-                  <img src="/assets/images/Dust_Bunny.jpg"/>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="tile is-child widget">
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title nice-title">
-                  Recommended Websites
-                </p>
-              </header>
-              <div class="card-content">
-                <div class="content nice-text">
-                  <ul>
-                    <li>
-                      <a href="https://xkcd.com">xkcd</a>
-                    </li>
-                    <li>
-                      <a href="http://commitstrip.com">Commit Strip</a>
-                    </li>
-                    <li>
-                      <a href="http://www.smbc-comics.com">SMBC Comics</a>
-                    </li>
-                    <li>
-                      <a href="https://blog.codinghorror.com">Coding Horror</a>
-                    </li>
-                    <li>
-                      <a href="http://waitbutwhy.com">Wait Buy Why</a>
-                    </li>
-                    <li>
-                      <a href="https://simplysoch.wordpress.com/">Simply Soch</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
+    </main>
 
   </div>
-</div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        Some rights reserved.
-      </p>
-      <p>
-        Made with <i class="fa fa-heart"></i> and <a href="https://github.com/jgthms/bulma">Bulma</a>, <a href="https://jekyllrb.com/">Jekyll</a>. Hosted on <a href="https://github.com/">Github</a>
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/abhn">
-          <i class="fa fa-github" title="Github"></i>
-        </a>
-        <a class="icon" href="https://in.linkedin.com/in/AbhishekNagekar">
-          <i class="fa fa-linkedin" title="Linkedin"></i>
-        </a>
-        <a class="icon" href="mailto:abhishek@nagekar.com">
-          <i class="fa fa-envelope" title="Email"></i>
-        </a>
-      </p>
-    </div>
+  <footer class="footer">
+  <div>
+    &copy; 2023 chzzok.
+    Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a>.
+    Get this theme
+    <a href="https://github.com/EinHungerkuenstler/EinHungerkuenstler.github.io" target="_blank">here</a>.
   </div>
 </footer>
 
-<!-- js -->
-<script src="/assets/js/custom.js"></script>
-<script src="/assets/js/typewriter.js"></script>
+  <!-- js from https://codepen.io/MrGrigri/pen/XQmWBv -->
+
+<script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+    const themePreference = () => {
+        const hasLocalStorage = localStorage.getItem('theme');
+        let supports = false;
+        let theme = undefined;
+
+        if (hasLocalStorage === 'light') {
+            theme = 'light';
+        }
+        if (hasLocalStorage === 'dark') {
+            theme = 'dark';
+        }
+
+        if (window.matchMedia(`(prefers_color: dark)`).matches) {
+            theme = hasLocalStorage ? hasLocalStorage : 'dark';
+            supports = true;
+        };
+        if (window.matchMedia(`(prefers_color: light)`).matches) {
+            theme = hasLocalStorage ? hasLocalStorage : 'light';
+            supports = true;
+        };
+        if (window.matchMedia(`(prefers_color: no-preference)`).matches) {
+            theme = hasLocalStorage ? hasLocalStorage : 'none';
+            supports = true;
+        };
+
+        return {
+            supports,
+            theme
+        };
+    }
+
+    document.addEventListener('DOMContentLoaded', e => {
+        console.clear();
+
+        const userThemePreference = themePreference();
+        const toggle = document.querySelector('[theme_toggle]');
+        const html = document.documentElement;
+
+        const setTheme = () => {
+            switch (userThemePreference.theme) {
+                case 'dark':
+                    toggle.checked = true;
+                    html.classList.add('dark');
+                    html.classList.remove('light');
+                    break;
+                case 'light':
+                    toggle.checked = false;
+                    html.classList.remove('dark');
+                    html.classList.add('light');
+                    break;
+            }
+        }
+        setTheme();
+        toggle.addEventListener('click', e => {
+            if (toggle.checked) {
+                html.classList.add('dark');
+                html.classList.remove('light');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                html.classList.remove('dark');
+                html.classList.add('light');
+                localStorage.setItem('theme', 'light');
+            }
+        }, false);
+    }, false);
+// @license-end
+</script>
+
 </body>
 </html>
