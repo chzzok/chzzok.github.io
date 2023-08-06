@@ -1,7 +1,7 @@
 ---
 title: Archives
 layout: simple
-order: 4
+order: 3
 ---
 
 > *"It Don't Mean a Thing (If it Ain't Got that Swing)"*

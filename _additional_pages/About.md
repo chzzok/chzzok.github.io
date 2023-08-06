@@ -1,5 +1,5 @@
 ---
 title: About
 layout: simple
-order: 2
+order: 1
 ---
