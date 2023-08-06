@@ -1,5 +1,5 @@
 ---
-title: Archives
+title: Projects
 layout: simple
 order: 3
 ---

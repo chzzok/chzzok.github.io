@@ -1,5 +1,5 @@
 ---
-title: et 
+title: etc
 layout: simple
 order: 5
 ---
