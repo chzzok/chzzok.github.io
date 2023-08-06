@@ -1,7 +1,7 @@
 ---
 title: Categories
 layout: simple
-order: 3
+order: 2
 ---
 
 > *Jim Hacker: I can't believe it, Humphrey. You had a conventional strict academic upbringing. Are you denying the value of it?*

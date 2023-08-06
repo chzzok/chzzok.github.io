@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: simple
-order: 2
+order: 1
 ---
 >*"What is the use of a book", thought Alice, "without pictures or conversations?"*
 >

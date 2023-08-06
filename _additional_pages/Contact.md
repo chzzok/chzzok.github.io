@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: simple
-order: 6
+order: 5
 ---
 
 >  *Медведенко. Отчего вы всегда ходите в черном?*
