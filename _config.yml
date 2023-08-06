@@ -22,8 +22,8 @@ cusdis:
 user:
   name: chzzok
   pic: /assets/img/profile.jpg
-  picAlt: "An Exhibition of A Hunger Artist"
-  job: "developer, No.8"
+  picAlt: "シズク=ムラサキ"
+  job: "Developer, No.8"
   # aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
