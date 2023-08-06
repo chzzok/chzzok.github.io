@@ -4,11 +4,6 @@ layout: simple
 order: 4
 ---
 
-<!-- H3 -->
-### Some stories that I like  
-
-#### A Hunger Artist by Franz Kafka
-
-- [English](/literature/stories/Franz_Kafka/A_Hunger_Artist)
-- [Chinese](/literature/stories/Franz_Kafka/饥饿艺术家)
-- [Original German](/literature/stories/Franz_Kafka/Ein_Hungerkuenstler)
+> *"It Don't Mean a Thing (If it Ain't Got that Swing)"*
+> 
+><p align="right">-- Duke Ellington, February 2rd, 1932</p>

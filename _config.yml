@@ -23,7 +23,7 @@ user:
   name: chzzok
   pic: /assets/img/profile.jpg
   picAlt: "An Exhibition of A Hunger Artist"
-  job: "developer"
+  job: "developer, No.8"
   # aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
